@@ -1,0 +1,3 @@
+curl -X POST -H "Content-Type:application/json" http://localhost:3000/drivers --data '{ "name": "Robert Kubica", "team": "Williams" }'
+curl -X POST -H "Content-Type:application/json" http://localhost:3000/drivers --data '{ "name": "Sebastian Vettel", "team": "Ferrari" }'
+curl -X POST -H "Content-Type:application/json" http://localhost:3000/drivers --data '{ "name": "Lewis Hamilton", "team": "Mercedes" }'
