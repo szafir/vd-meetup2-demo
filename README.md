@@ -26,9 +26,9 @@ serverless offline start
 ./tests/remove.sh id
 ```
 
-## Deploy
+## Deployment
 
-1. create user in AWS console with policies:
+### Create user in AWS console with this policies:
 
 ```
     AWSLambdaFullAccess
@@ -40,11 +40,14 @@ serverless offline start
     AWSCloudFormationFullAccess
 ```
 
-2. authorize serverless framework
+### Authorize serverless framework
 
 ```bash
 export AWS_ACCESS_KEY_ID=<acces-key-id>
 export AWS_SECRET_ACCESS_KEY=<secret-access-key>
 ```
 
-3. sls deploy --stage=<stage-name>
+### Deploy
+```bash
+sls deploy --stage=<stage-name>
+```
