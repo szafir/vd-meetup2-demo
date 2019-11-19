@@ -21,6 +21,8 @@ custom:
       convertEmptyValues: true
     # migration:
     #   dir: offline/migrations
+    stages:
+      - dev
 
 provider:
   name: aws
